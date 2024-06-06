@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume | ABRAHAM</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  </head>
+  <body>   
+    <div class="background-gradient"></div>
+    <section class="main-container">
+      <!-- SOCIAL SECTION -->
+      <aside class="sidebar w3-quarter w3-fixed w3-padding-small">
+        <img src="avatar.jpg" class="avatar w3-circle w3-border w3-border-sand" alt="Abraham A. Baffoe" />
+        <div class="links w3-margin-top w3-padding-small">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="" target="_blank"><i data-feather="facebook"></i></a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.instagram.com/tripbos/" target="_blank"><i data-feather="instagram"></i></a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#twitter" target="_blank"><i data-feather="twitter"></i></a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/abraham-baffoe/" target="_blank"><i data-feather="linkedin"></i></a>
+        </div>
+        <div class="w3-container w3-padding-16">
+          <a href="Profile.pdf" class="download-btn w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="Profile.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+      </aside>
+
+      <!--CV CONTENT SECTION-->
+      <main class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <nav class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM VITAE</a>
+          <div class="w3-right">
+            <a href="#about" class="nav-item w3-bar-item w3-button">ABOUT</a>
+            <a href="#resume" class="nav-item w3-bar-item w3-button">RESUME</a>
+            <a href="#contact" class="nav-item w3-bar-item w3-button">CONTACT</a>
+          </div>
+        </nav>
+
+        <!-- MOBILE NAVIGATION -->
+        <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">
+            <i data-feather="menu" class="toggle-icon"></i>
+          </a>
+        </div>
+        <nav id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+          <a href="#about" class="nav-item-mobile w3-bar-item w3-button" onclick="toggleNavigation()">ABOUT</a>
+          <a href="#resume" class="nav-item-mobile w3-bar-item w3-button" onclick="toggleNavigation()">RESUME</a>
+          <a href="#contact" class="nav-item-mobile w3-bar-item w3-button" onclick="toggleNavigation()">CONTACT</a>
+        </nav>
+
+                <div class="content-container w3-margin-top-2">
+                      <!--HOME SECTION-->
+            <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+          <div class="home-content">
+            <h1 class="name fadeIn">Abraham A. Baffoe</h1>
+            <h2 class="title slideIn">Full-Stack Developer & Cloud Architect</h2>
+            <p class="tagline">
+              <span class="typed-out">Crafting innovative solutions at the intersection of web, cloud, and blockchain.</span>
+              <span class="cursor"></span>
+            </p>
+          </div>
+          <div class="particles"></div>
+        </div>
+    </div>
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber section-title fadeIn">ABOUT</h2>
+            <p class="w3-margin-top-2 fadeIn">I'm Abraham Acquah Baffoe, a seasoned Full-Stack Developer and Cloud Architect with a passion for innovative technology. My expertise spans web development, cloud solutions, blockchain, and IT consulting. I'm deeply committed to advancing STEM education in Africa, aiming to empower the continent to be the producer and owner of its technological resources.</p>
+          </div>
+
+          <!--WORK EXPERIENCE-->
+          <div id="experience" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber section-title fadeIn">WORK EXPERIENCE</h2>
+            
+            <div class="flex-container">
+              <div class="flex-card zoomIn">
+                <h3 class="card-title">Senior Web Developer</h3>
+                <h4>TechGlobal Solutions</h4>
+                <p>June 2020 - Present</p>
+                <ul class="w3-ul bullet-list">
+                  <li>Lead a team of 10 developers in creating scalable web applications</li>
+                  <li>Implemented cloud-native architectures using AWS, reducing costs by 30%</li>
+                  <li>Introduced React and Node.js, boosting productivity by 40%</li>
+                </ul>
+              </div>
+              
+              <div class="flex-card zoomIn">
+                <h3 class="card-title">Blockchain Consultant</h3>
+                <h4>DecentralTech</h4>
+                <p>January 2019 - May 2020</p>
+                <ul class="w3-ul bullet-list">
+                  <li>Advised startups on blockchain integration strategies</li>
+                  <li>Developed smart contracts in Solidity for DeFi projects</li>
+                  <li>Conducted workshops, educating over 500 professionals</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber section-title fadeIn">RESUME</h2>
+            
+            <!-- Flex cards -->
+            <div class="flex-container">
+              <div class="flex-card zoomIn">
+                <h3 class="card-title">VOLUNTEERED SERVICES</h3>
+                <h4>Robotic Instructor</h4>
+                <p>September 2021 - Present</p>
+                <ul class="w3-ul bullet-list">
+                  <li>Ensured sufficient tools for teaching</li>
+                  <li>Simplified robotic engineering concepts</li>
+                  <li>Inspired women to pursue STEM careers</li>
+                </ul>
+              </div>
+              
+              <div class="flex-card zoomIn">
+                <h3 class="card-title">EDUCATION</h3>
+                <h4>Saint Paul College, USA</h4>
+                <p>A.A.S Computer Science Transfer Pathway </p>
+                <p>January 2024 - July 2026</p>
+                <h4>Albion College</h4>
+                <p>B.Sc. Computer Science and Data Analysis</p>
+              </div>
+            </div>
+
+            <!-- Skills section -->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber section-title fadeIn">MY SKILLS</h3>
+              <div class="skills-container">
+                <div class="skills-column zoomIn">
+                  <h4>Soft Skills</h4>
+                  <ul class="w3-ul bullet-list" id="softSkills"></ul>
+                </div>
+                <div class="skills-column zoomIn">
+                  <h4>Technical Skills</h4>
+                  <ul class="w3-ul bullet-list" id="techSkills"></ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber section-title fadeIn">MY CONTACT DETAILS</h2>
+            <div class="w3-margin-top-2 contact-info fadeIn">
+              <p>Name: Abraham Acquah Baffoe</p>
+              <p>Address: Osu, Ako Adjei Park, Accra, Ghana</p>
+              <p>Phone: +233599314620</p>
+              <p>Email: abrahambaffoe317@email.com</p>
+            </div>
+          </div>
+        </div>
+
+        <!--FOOTER-->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>&copy; 2024 - Abraham A. Baffoe</p>
+          <p class="w3-small">Founder of Khliky_Byhtes and Services & SingleHacks AI Research Lab</p>
+        </footer>
+      </main>      
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
