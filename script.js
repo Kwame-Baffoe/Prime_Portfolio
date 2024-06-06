@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Typing effect
     const phrases = [
       'Crafting innovative solutions at the intersection of web.',
-      'Every Single line of cound bound!.',
+      'Every Single line of code bound!.',
       'Building scalable, efficient, and secure ecosystems.'
     ];
   
