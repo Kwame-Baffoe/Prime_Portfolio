@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     // Dynamic skill lists
     const softSkills = ['Leadership', 'Communication', 'Problem-solving', 'Adaptability', 'Emotional intelligence', 'Strategic thinking'];
-    const techSkills = ['Cloud Architecture (AWS)', 'Full-Stack JS (React, Node.js)', 'Blockchain (Solidity)', 'CI/CD (Jenkins)', 'Microservices', 'Data Analytics'];
+    const techSkills = ['Cloud Architecture (AWS)', 'CI/CD (Jenkins)', 'Microservices', 'Data Analytics'];
   
     function populateSkills(skills, list) {
       skills.forEach((skill, index) => {
